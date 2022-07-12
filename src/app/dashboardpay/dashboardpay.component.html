@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>DashBoard</title>
+  <link rel="stylesheet" href="/src/app/dashboardpay/dashboardpay.component.css" />
+</head>
+<body>
+  <div class="container">
+    <nav>
+      <ul>
+        <li><a href="#" class="logo">
+          <span class="nav-item">dashboard</span>
+        </a></li>
+        <li><a href="#">
+          <i class="fas fa-comment"></i>
+        </a></li>
+        <li><a href="#">
+            <i class="fas fa-menorah"></i>
+            <span class="nav-item">Latest News</span>
+          </a></li>
+        <li><a href="#">
+          <i class="fas fa-chart-bar"></i>
+          <span class="nav-item"><a routerLink="/contact-us">Contact us</a></span>
+        </a></li>
+        <li><a href="#">
+          <i class="fas fa-cog"></i>
+          <span class="nav-item"><a routerLink="/about-us">About us</a></span>
+        </a></li>
+        <li><a href="#">
+            <i class="fas fa-menorah"></i>
+            <span class="nav-item">Log-Out</span>
+          </a></li>
+      </ul>
+    </nav>
+    <section class="main">
+      <div class="main-top">
+        <h1>Welcome</h1>
+        <i class="fas fa-user-cog"></i>
+      </div>
+      <div class="users">
+        <div class="card">
+          <h2>Property number</h2>
+          <form>
+          <div class="inputbox">
+            <input formControlName="Propertyid" type="tel" placeholder="Enter your Property Number">
+          </div>
+          <div class="button">
+            <input type="submit" value="Login">
+          </div>
+        </form>
+        </div>
+        <div class="card">
+          <div class="card2">
+            <h2>
+              Tax amount to be paid
+            </h2>
+            <div class="amount">
+              <h4>
+                RS:1100
+              </h4>
+              <div class="pay">
+                <h2 class="forget"> <a routerLink="/billing">Pay Now</a></h2>
+              </div>
+            </div>           
+        </div>
+        </div>
+      </div>
+
+      <section class="attendance">
+        <div class="attendance-list">
+          <h1>Transaction History</h1>
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Mobile Number</th>
+                <th>Address</th>
+                <th>Paid Amount</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>User1</td>
+                <td>1234567896</td>
+                <td>78a,4th street</td>
+                <td>Rs:1000</td>
+              </tr>
+                <td>User2</td>
+                <td>7015828515</td>
+                <td>19s,Ghandhi Nagar</td>
+                <td>Rs:865</td>
+              <tr>
+                <td>User3</td>
+                <td>1234567896</td>
+                <td>127,Golden street</td>
+                <td>Rs:985</td>
+              </tr>
+              <tr>
+                <td>User4</td>
+                <td>3947925858</td>
+                <td>677,Easy street</td>
+                <td>Rs:785</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </section>
+  </div>
+
+</body>
+</html>

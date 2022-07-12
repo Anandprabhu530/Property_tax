@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Property Tax Collection</title>
+    <link href="/register.component.css">
+</head>
+<body>
+    <div class="title">
+    <h1>PROPERTY TAX COLLECTION</h1>
+    </div>
+    <section>
+        <div class="box">
+            <div class="square" style="--i:0;"></div>
+            <div class="square" style="--i:1;"></div>
+            <div class="square" style="--i:2;"></div>
+            <div class="square" style="--i:3;"></div>
+            <div class="square" style="--i:4;"></div>
+            <div class="container">
+                <div class="form">
+                    <h2>Register Now</h2>
+                    <form [formGroup]="registerform" (ngSubmit)="register()">
+                        <div class="inputbox">
+                            <input  formControlName="fullname" class="fromControlName" type="fullname" placeholder="Full Name">
+                        </div>
+                        <div class="layer">
+                            <span class="text-danger" *ngIf="registerform.controls['fullname'].dirty && registerform.hasError('required','fullname')"> * Fullname required</span>
+                        </div>
+                        <div class="inputbox">
+                            <input formControlName="email" type="email" placeholder="Email Address">
+                        </div>
+                        <div class="layer">
+                            <span class="text-danger" *ngIf="registerform.controls['email'].dirty && registerform.hasError('required','email')"> * Email address required</span>
+                        </div>
+                        <div class="inputbox">
+                            <input formControlName="username" type="username" placeholder="Username">
+                        </div>
+                        <div class="layer">
+                            <span class="text-danger" *ngIf="registerform.controls['username'].dirty && registerform.hasError('required','username')"> * Username required</span>
+                        </div>
+                        <div class="inputbox">
+                            <input  formControlName="mobilenumber" type="tel" placeholder="Mobile Number">
+                        </div>
+                        <div class="layer">
+                        <span class="text-danger" *ngIf="registerform.controls['mobilenumber'].dirty && registerform.hasError('required','mobilenumber')"> * Mobile number required</span>
+                        </div>
+                        <div class="inputbox">
+                            <input formControlName="password" type="password" placeholder="Password">
+                        </div>
+                        <div class="layer">
+                        <span class="text-danger" *ngIf="registerform.controls['password'].dirty && registerform.hasError('required','password')"> * Password required</span>
+                        </div>
+                        <div class="inputbox">
+                            <input type="submit" placeholder="submit">
+                        </div>
+                        <p class="forget">Already have an Account ? <a routerLink="/login">Login</a></p>
+                        
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="images">
+        <img src="assets/Register_background.png" alt="">
+    </div>
+</body>
+</html>

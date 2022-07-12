@@ -1,0 +1,210 @@
+{
+  "posts": [],
+  "registereduser": [
+    {
+      "email": "anand@gmail.com",
+      "username": "anand",
+      "password": "anand",
+      "id": 1
+    },
+    {
+      "email": "inba",
+      "username": "inba",
+      "password": "inba",
+      "id": 2
+    },
+    {
+      "email": "Anand@gmail.com",
+      "username": "Anand33",
+      "password": "1234",
+      "id": 3
+    },
+    {
+      "email": "athesh007@gmail.com",
+      "username": "athesh",
+      "mobilenumber": "698745231",
+      "password": "1234",
+      "id": 4
+    },
+    {
+      "email": "19epci022@skcet.ac.in",
+      "username": "Prem3501",
+      "password": "2533@gmail.com",
+      "id": 5
+    },
+    {
+      "email": "19epci007@skcet.ac.in",
+      "username": "athesh",
+      "password": "123456789",
+      "id": 6
+    },
+    {
+      "email": "prem",
+      "username": "prem123",
+      "password": "prem",
+      "id": 7
+    },
+    {
+      "email": "19epci007@skcet.ac.in",
+      "username": "sharan",
+      "password": "hellohivanakkam",
+      "id": 8
+    },
+    {
+      "email": "19epci013@skcet.ac.in",
+      "username": "Karthikeyan",
+      "password": "Karthi@12345",
+      "id": 9
+    },
+    {
+      "email": "19epci010@skcet.ac.in",
+      "username": "Inbamani",
+      "password": "Inba@12345",
+      "id": 10
+    },
+    {
+      "email": "19epci014@skcet.ac.in",
+      "username": "Karthik",
+      "password": "Karthik@12345",
+      "id": 11
+    },
+    {
+      "email": "19epci015@skcet.ac.in",
+      "username": "Karthi",
+      "password": "Karthi@12345",
+      "id": 12
+    },
+    {
+      "email": "19epci018@skcet.ac.in",
+      "username": "Ashraf",
+      "password": "Ashraf@12345",
+      "id": 13
+    },
+    {
+      "email": "19epci019@skcet.ac.in",
+      "username": "Fahran",
+      "password": "Fahran@12345",
+      "id": 14
+    },{
+      "email": "19epci020@skcet.ac.in",
+      "username": "Nithin",
+      "password": "Nithin@12345",
+      "id": 15
+    },
+    {
+      "email": "19epci021@skcet.ac.in",
+      "username": "Nittin",
+      "password": "Nittin@12345",
+      "id": 16
+    },
+    {
+      "email": "19epci023@skcet.ac.in",
+      "username": "Ragulram",
+      "password": "ragulram@12345",
+      "id": 17
+    },
+    {
+      "email": "19epci024@skcet.ac.in",
+      "username": "Rehan",
+      "password": "rehan@12345",
+      "id": 18
+    },
+    {
+      "email": "19epci250@skcet.ac.in",
+      "username": "Saran",
+      "password": "saran@12345",
+      "id": 19
+    },
+    {
+      "email": "19epci028@skcet.ac.in",
+      "username": "Nareen",
+      "password": "nareen@12345",
+      "id": 20
+    },
+    {
+      "email": "19epci029@skcet.ac.in",
+      "username": "Sudharshan",
+      "password": "sudharshan@12345",
+      "id": 21
+    },
+    {
+      "email": "19epci031@skcet.ac.in",
+      "username": "Thaarun",
+      "password": "thaarun@12345",
+      "id": 22
+    }
+    ,{
+      "email": "19epci032@skcet.ac.in",
+      "username": "Vivek",
+      "password": "vivek@12345",
+      "id": 23
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "Contact-Us": [
+    {
+      "firstname": "",
+      "lastname": "Prem Kumaar R",
+      "subject": "Very awesome web app for payment of property tax online but the drawback is that, no ads are coming for this website so please give ads so that every people can know about this amazing online website and every one can use it. Please consider this query and make this know to each and every people by giving ads so that every one can use it.",
+      "id": 1
+    }
+  ],
+  "property-id": [
+    {
+      "Propertyid": "877097157491607",
+      "taxamount": "1150",
+      "id": 1
+    },
+    {
+      "Propertyid": "944253367864160",
+      "taxamount": "1210",
+      "id": 2
+    },
+    {
+      "Propertyid": "861062964694425",
+      "taxamount": "1110",
+      "id": 3
+    },
+    {
+      "Propertyid": "123456789123456",
+      "taxamount": "975",
+      "id": 4
+    },
+    {
+      "Propertyid": "987654321987654",
+      "taxamount": "1106",
+      "id": 5
+    },
+    {
+      "Propertyid": "147852369741258",
+      "taxamount": "981",
+      "id": 6
+    },
+    {
+      "Propertyid": "963258741258963",
+      "taxamount": "894",
+      "id": 7
+    },
+    {
+      "Propertyid": "753951357951357",
+      "taxamount": "984",
+      "id": 8
+    },
+    {
+      "Propertyid": "125478985632136",
+      "taxamount": "1340",
+      "id": 9
+    },
+    {
+      "Propertyid": "741025896301478",
+      "taxamount": "962",
+      "id": 10
+    },{
+      "Propertyid": "123456789987654",
+      "taxamount": "973",
+      "id": 11
+    }
+  ]
+}

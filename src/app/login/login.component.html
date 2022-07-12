@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Property Tax Collection</title>
+    <link href="/login.component.css">
+</head>
+
+<body>
+    <div class="title">
+    <h1>PROPERTY TAX COLLECTION</h1>
+    </div>
+    <section>
+        <div class="box">
+            <div class="square" style="--i:0;"></div>
+            <div class="square" style="--i:1;"></div>
+            <div class="square" style="--i:2;"></div>
+            <div class="square" style="--i:3;"></div>
+            <div class="square" style="--i:4;"></div>
+            <div class="container">
+                <div class="form">
+                    <h2>Login Form</h2>
+                    <form [formGroup]="loginform" (ngSubmit)="login()">
+                        <div class="inputbox">
+                            <input formControlName="email" type="username" placeholder="Email Id" required>
+                        </div>
+                        <div class="layer">
+                            <span class="text-danger" *ngIf="loginform.controls['email'].dirty && loginform.hasError('required','email')"> * Email address required</span>
+                        </div>
+                        <div class="inputbox">
+                            <input formControlName="password" type="password" placeholder="Password" required>
+                        </div>
+                        <div class="layer">
+                            <span class="text-danger" *ngIf="loginform.controls['password'].dirty && loginform.hasError('required','password')"> * Password required</span>
+                        </div>
+                        <div class="inputbox">
+                            <input type="submit" value="Login">
+                        </div>
+                        <p class="forget">Don't Have an Account ? <a routerLink="/register">Register</a></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="images">
+        <img src="assets/Login_background.png" alt="">
+    </div>
+
+
+</body>
+</html>
